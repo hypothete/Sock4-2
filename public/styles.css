@@ -1,0 +1,63 @@
+body{
+	font-family: sans-serif;
+	font-weight:bold;
+	text-align:center;
+	height: 100%;
+}
+
+canvas{
+	border: 1px dashed black;
+}
+
+ul{
+	padding: 0px;
+	margin:10px;
+	max-height: 600px;
+	border: 3px inset gray;
+	overflow-y:scroll;
+}
+
+li{
+	list-style-type:none;
+	padding-left: 1em;
+	display:block;
+}
+
+ul li{
+   background-color: #f0f;
+   color: #0f0;
+}
+
+ul li:nth-child(7n-1) {
+   background-color: #f00;
+   color: #0ff;
+}
+
+ul li:nth-child(7n-2) {
+   background-color: #ff0;
+   color: #f0f;
+}
+
+ul li:nth-child(7n-3) {
+   background-color: #fff;
+   color: #666;
+}
+
+ul li:nth-child(7n-4) {
+   background-color: #0f0;
+   color: #f0f;
+}
+
+ul li:nth-child(7n-5) {
+   background-color: #0ff;
+   color: #f00;
+}
+
+ul li:nth-child(7n-6) {
+   background-color: #00f;
+   color: #ff0;
+}
+
+#bin{
+	display: inline-block;
+}

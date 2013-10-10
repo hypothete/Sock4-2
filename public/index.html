@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+<meta charset=utf-8 />
+<title>Sock4</title>
+<link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+<body ng-controller="ctrl">
+
+	<h2>Sock4</h2>
+
+	<hr/>
+
+	<div id="bin">
+		<div data-screen send-picture="postPicture(message)" log="{{localLog}}"></div>
+	</div>
+
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/sugar/1.3.9/sugar.min.js"></script>
+	<script src="client.js"></script>
+</body>
+</html>
